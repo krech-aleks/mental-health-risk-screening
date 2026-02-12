@@ -1,6 +1,7 @@
 EN
 
-Goal
+Goal:
+
 Early screening of depression risk (PHQ-9 ≥ 10) using behavioral social media signals.
 This project builds a reproducible ML pipeline focused on:
 Leakage-safe data splitting
@@ -9,7 +10,8 @@ PR-AUC–oriented evaluation (class imbalance aware)
 Validation-based threshold selection
 Reproducible inference artifact (pipeline + threshold)
 
-Final Model (v1.0)
+Final Model (v1.0):
+
 Model: LightGBM (sklearn API)
 CV objective: PR-AUC (5-fold)
 Test PR-AUC: ~0.60 (baseline prevalence ~0.21)
@@ -20,7 +22,8 @@ The model prioritizes risk detection (screening scenario) while maintaining mode
 
 JP
 
-目的
+目的:
+
 ソーシャルメディア利用行動から PHQ-9 ≥ 10 を予測し、
 うつ症状リスクの早期スクリーニングを行う。
 本プロジェクトでは以下を重視した再現可能なMLパイプラインを構築した：
@@ -30,7 +33,8 @@ Optuna による LightGBM 最適化
 Validation による閾値選択
 推論用成果物（パイプライン＋閾値）の保存
 
-最終モデル（v1.0）
+最終モデル（v1.0）:
+
 モデル: LightGBM（sklearn API）
 CV目的関数: PR-AUC（5-fold）
 Test PR-AUC: 約0.60（ベースライン約0.21）
