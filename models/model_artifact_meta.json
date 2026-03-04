@@ -1,0 +1,36 @@
+{
+  "threshold": 0.662599623480529,
+  "best_params": {
+    "n_estimators": 1208,
+    "learning_rate": 0.07156942873747252,
+    "num_leaves": 72,
+    "min_child_samples": 106,
+    "subsample": 0.9417065343798696,
+    "colsample_bytree": 0.7353967348267603,
+    "reg_alpha": 4.955303090047646,
+    "reg_lambda": 2.2530585692042258e-08
+  },
+  "random_state": 17,
+  "drop_cols": [
+    "PHQ_9_Score",
+    "PHQ_9_Severity",
+    "GAD_7_Score",
+    "GAD_7_Severity",
+    "target",
+    "User_ID"
+  ],
+  "num_cols": [
+    "Age",
+    "Daily_Screen_Time_Hours",
+    "Late_Night_Usage",
+    "Social_Comparison_Trigger",
+    "Sleep_Duration_Hours"
+  ],
+  "cat_cols": [
+    "Gender",
+    "User_Archetype",
+    "Primary_Platform",
+    "Dominant_Content_Type",
+    "Activity_Type"
+  ]
+}
